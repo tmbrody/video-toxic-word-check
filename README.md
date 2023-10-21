@@ -1,1 +1,3 @@
 # video-toxic-word-check
+
+This current version of the script, designed for PowerShell, leverages yt-dlp to fetch a YouTube video and convert it into an mp3 format. Following this, it facilitates the installation of Torch and OpenAI's Whisper. After that is finished, a Python script is executed which generates a transcript from the audio. This script then scrutinizes the transcript for the presence of any offensive words listed in the toxic.txt file. If those words are identified, the program will display the timestamps of the lines where these words occur.
